@@ -1,0 +1,36 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* common style or utilities */
+.design {
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  border: 1px dotted goldenrod;
+  border-radius: 10%;
+}
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+.img {
+  border-radius: 50%;
+  display: grid;
+}
+.content-div {
+  text-align: center;
+}
+.d-flex {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 480px) {
+  .small-device {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+}
